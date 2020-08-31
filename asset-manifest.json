@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/techdrug/static/css/main.5f361e03.chunk.css",
+    "main.js": "/techdrug/static/js/main.a776506a.chunk.js",
+    "main.js.map": "/techdrug/static/js/main.a776506a.chunk.js.map",
+    "runtime-main.js": "/techdrug/static/js/runtime-main.9071646a.js",
+    "runtime-main.js.map": "/techdrug/static/js/runtime-main.9071646a.js.map",
+    "static/js/2.20fea639.chunk.js": "/techdrug/static/js/2.20fea639.chunk.js",
+    "static/js/2.20fea639.chunk.js.map": "/techdrug/static/js/2.20fea639.chunk.js.map",
+    "index.html": "/techdrug/index.html",
+    "precache-manifest.efc233931d350be84550abfb0a926bff.js": "/techdrug/precache-manifest.efc233931d350be84550abfb0a926bff.js",
+    "service-worker.js": "/techdrug/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/techdrug/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.20fea639.chunk.js.LICENSE.txt": "/techdrug/static/js/2.20fea639.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/techdrug/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9071646a.js",
+    "static/js/2.20fea639.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.a776506a.chunk.js"
+  ]
+}
