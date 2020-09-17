@@ -14,37 +14,32 @@ class Navbar extends React.Component {
 		        <ul>
 		          <li className="active"><a href="index.html">Home</a></li>
 		          <li><a href="#about">About</a></li>
-		          <li><a href="#services">Services</a></li>
-		          <li><a href="#portfolio">Portfolio</a></li>
-		          <li><a href="#team">Team</a></li>
-		          <li className="drop-down"><a href="">Drop Down</a>
+  		          <li className="drop-down"><a href="">Services</a>
 		            <ul>
-		              <li><a href="#">Drop Down 1</a></li>
-		              <li className="drop-down"><a href="#">Deep Drop Down</a>
+		              <li><a href="#">Web Development</a></li>
+		              <li className="drop-down"><a href="#">Design</a>
 		                <ul>
-		                  <li><a href="#">Deep Drop Down 1</a></li>
-		                  <li><a href="#">Deep Drop Down 2</a></li>
-		                  <li><a href="#">Deep Drop Down 3</a></li>
-		                  <li><a href="#">Deep Drop Down 4</a></li>
-		                  <li><a href="#">Deep Drop Down 5</a></li>
+		                  <li><a href="#">Web Design</a></li>
+		                  <li><a href="#">Web ui changes</a></li>
+		                  <li><a href="#">Design Wireframing & Mockup</a></li>
+		                  <li><a href="#">Psd to Html</a></li>
+		                  <li><a href="#">Psd to wordpress</a></li>
 		                </ul>
 		              </li>
-		              <li><a href="#">Drop Down 2</a></li>
-		              <li><a href="#">Drop Down 3</a></li>
-		              <li><a href="#">Drop Down 4</a></li>
+		              <li><a href="#">Mobile Development</a></li>
+		              <li><a href="#">Api Development</a></li>
+		              <li><a href="#">Laravel Exper</a></li>
 		            </ul>
 		          </li>
+		          <li><a href="#portfolio">Portfolio</a></li>
+		          <li><a href="#team">Team</a></li>
 		          <li><a href="#contact">Contact</a></li>
-
 		        </ul>
 		      </nav>
-
 		      <a href="#about" className="get-started-btn scrollto">Get Started</a>
-
 		    </div>
 		  </header>
     	);
-  }
+	}
 }
-
 export default Navbar;
