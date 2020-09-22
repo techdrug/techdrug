@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/techdrug/static/css/main.714fc84c.chunk.css",
-    "main.js": "/techdrug/static/js/main.73e67ff7.chunk.js",
-    "main.js.map": "/techdrug/static/js/main.73e67ff7.chunk.js.map",
+    "main.css": "/techdrug/static/css/main.41135ce7.chunk.css",
+    "main.js": "/techdrug/static/js/main.09c712d7.chunk.js",
+    "main.js.map": "/techdrug/static/js/main.09c712d7.chunk.js.map",
     "runtime-main.js": "/techdrug/static/js/runtime-main.9071646a.js",
     "runtime-main.js.map": "/techdrug/static/js/runtime-main.9071646a.js.map",
     "static/js/2.b9cfba11.chunk.js": "/techdrug/static/js/2.b9cfba11.chunk.js",
     "static/js/2.b9cfba11.chunk.js.map": "/techdrug/static/js/2.b9cfba11.chunk.js.map",
     "index.html": "/techdrug/index.html",
-    "precache-manifest.299e6578056aa8e29cdd122f4fa1ea38.js": "/techdrug/precache-manifest.299e6578056aa8e29cdd122f4fa1ea38.js",
+    "precache-manifest.4c6cfd6aecf97cc287ed73b2cc31f939.js": "/techdrug/precache-manifest.4c6cfd6aecf97cc287ed73b2cc31f939.js",
     "service-worker.js": "/techdrug/service-worker.js",
-    "static/css/main.714fc84c.chunk.css.map": "/techdrug/static/css/main.714fc84c.chunk.css.map",
+    "static/css/main.41135ce7.chunk.css.map": "/techdrug/static/css/main.41135ce7.chunk.css.map",
     "static/js/2.b9cfba11.chunk.js.LICENSE.txt": "/techdrug/static/js/2.b9cfba11.chunk.js.LICENSE.txt",
     "static/media/style.css": "/techdrug/static/media/cta-bg.598bd60b.jpg",
-    "static/media/hero-img.png": "/techdrug/static/media/hero-img.fdff2e0c.png"
+    "static/media/hero-img.png": "/techdrug/static/media/hero-img.fdff2e0c.png",
+    "static/media/icofont.min.css": "/techdrug/static/media/icofont.f6ab04ae.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.9071646a.js",
     "static/js/2.b9cfba11.chunk.js",
-    "static/css/main.714fc84c.chunk.css",
-    "static/js/main.73e67ff7.chunk.js"
+    "static/css/main.41135ce7.chunk.css",
+    "static/js/main.09c712d7.chunk.js"
   ]
 }
