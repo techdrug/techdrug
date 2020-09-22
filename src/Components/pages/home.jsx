@@ -1,10 +1,15 @@
 import React from 'react';
+import Client from '../loops/Home_loops/clients';
+import Aboutus from '../loops/Home_loops/aboutus';
+import Whyus from '../loops/Home_loops/whyus';
+
 import sideImage from '../../assets/img/hero-img.png'
 
 class Home extends React.Component {
   render() {
     return (
-            <section id="hero" className="d-flex align-items-center">
+        <React.Fragment>
+            <div id="hero" className="d-flex align-items-center">
                     <div className="container">
                 <div className="row">
                     <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
@@ -20,7 +25,17 @@ class Home extends React.Component {
                     </div>
                 </div>
                 </div>
-            </section>
+            </div>
+            <div id="main">
+                {/* Start elient section */}
+                  <Client/>
+                {/* About us section */}
+                  <Aboutus/>
+                {/* Why choose us */}
+                <Whyus/>
+
+            </div>
+         </React.Fragment>  
         )
     }
 }
