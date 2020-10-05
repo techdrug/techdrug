@@ -4,13 +4,53 @@ $primaryFont:'Roboto', sans-serif;
 
 $primarytransition:0.2s ease-in-out;
 
+$primary-color : #21363d;
+
 body{
   font-family: $primaryFont;
+  color: $primary-color;
+}
+
+.section{
+  padding: 60px 0;
+}
+
+.section-title{
+  text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 40px;
+    display: inline-block;
+    position: relative;
+    transition: $primarytransition;
+    &::before{
+      content: '\f0da';
+      font-family: FontAwesome;
+      color: #41dfc0;
+      left: -15px;
+      position: relative;
+      transition: $primarytransition;
+    }
+    &:hover{
+      &::before{left: 0px;}
+      color:#41dfc0;
+    }
 }
 
 .main-header{
   padding: 20px 15px;
   box-shadow: 0 0 20px #ccc;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  
+
+  &.stick-remove{
+
+  }
+  &.stick-nav{
+
+  }
   .navbar-collapse{
     .nav-link{
       font-size: 16px;
@@ -20,16 +60,89 @@ body{
       font-weight: 400;
     }
   }
+
+  @media (max-width:1024px) {
+    .navbar-nav{
+        margin-left: auto !important;
+        margin: unset !important;
+      }
+  }
+  @media (max-width:991px) {
+    .container{
+      position: relative;
+      .navbar-collapse{
+        &.collapse:not(.show){
+          display: block;
+        }
+        .navbar-nav{
+            position: fixed;
+            left: -50%;
+            transition: $primarytransition;
+            background: #21363d;
+            height: 100%;
+            top: 0;
+            padding: 30px 27px 15px;
+            .nav-link{
+              color: #fff;
+              padding-bottom: 20px;
+            }
+          }
+          &.show{
+            .navbar-nav{
+              left: 0;
+            }
+          }
+      }
+    }
+  }
 }
 
 .main-btn{
   border-radius: 0;
   line-height: initial;
-  padding: 11px 25px;
+  padding: 12px 30px;
   text-transform: uppercase;
   transition: $primarytransition;
-  transform:translateY(0);
+  border-color: $primary-color;
+  background-color: $primary-color;
+  font-size: 18px;
+  font-weight: 600;
   &:hover{
-    transform:translateY(-5px);
+    border-color: #238673;
+    background-color: #238673;
+  }
+  &:focus{
+    box-shadow: none !important;
+  }
+}
+.banner-btn{
+  border-width: 2px;
+  background: transparent;
+  color: $primary-color;
+  white-space: nowrap;
+  @media(max-width: 1025px){
+    position: absolute;
+    right: 15px; 
+  }
+  @media(max-width: 991px){
+    position: absolute;
+    right: 85px;
+    top: -3px;
+  }
+}
+
+
+
+// Slider Component
+
+// brand section
+.brands{
+  ul{
+    padding: 0;
+    margin: 0;
+    li{
+      list-style: none;
+      padding: 0 15px;
+    }
   }
 }
