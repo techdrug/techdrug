@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+$primaryFont:'Roboto', sans-serif;
+
+$primarytransition:0.2s ease-in-out;
+
+body{
+  font-family: $primaryFont;
+}
+
+.main-header{
+  padding: 20px 15px;
+  box-shadow: 0 0 20px #ccc;
+  .navbar-collapse{
+    .nav-link{
+      font-size: 16px;
+      font-size: 16px;
+      padding: 0 16px;
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+  }
+}
+
+.main-btn{
+  border-radius: 0;
+  line-height: initial;
+  padding: 11px 25px;
+  text-transform: uppercase;
+  transition: $primarytransition;
+  transform:translateY(0);
+  &:hover{
+    transform:translateY(-5px);
+  }
+}
