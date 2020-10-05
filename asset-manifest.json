@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/techdrug/static/css/main.41135ce7.chunk.css",
-    "main.js": "/techdrug/static/js/main.09c712d7.chunk.js",
-    "main.js.map": "/techdrug/static/js/main.09c712d7.chunk.js.map",
-    "runtime-main.js": "/techdrug/static/js/runtime-main.9071646a.js",
-    "runtime-main.js.map": "/techdrug/static/js/runtime-main.9071646a.js.map",
-    "static/js/2.b9cfba11.chunk.js": "/techdrug/static/js/2.b9cfba11.chunk.js",
-    "static/js/2.b9cfba11.chunk.js.map": "/techdrug/static/js/2.b9cfba11.chunk.js.map",
+    "main.css": "/techdrug/static/css/main.8e89962c.chunk.css",
+    "main.js": "/techdrug/static/js/main.ee131680.chunk.js",
+    "main.js.map": "/techdrug/static/js/main.ee131680.chunk.js.map",
+    "runtime-main.js": "/techdrug/static/js/runtime-main.47a7ac8a.js",
+    "runtime-main.js.map": "/techdrug/static/js/runtime-main.47a7ac8a.js.map",
+    "static/css/2.8d42ffd2.chunk.css": "/techdrug/static/css/2.8d42ffd2.chunk.css",
+    "static/js/2.cca90ce6.chunk.js": "/techdrug/static/js/2.cca90ce6.chunk.js",
+    "static/js/2.cca90ce6.chunk.js.map": "/techdrug/static/js/2.cca90ce6.chunk.js.map",
     "index.html": "/techdrug/index.html",
-    "precache-manifest.4c6cfd6aecf97cc287ed73b2cc31f939.js": "/techdrug/precache-manifest.4c6cfd6aecf97cc287ed73b2cc31f939.js",
+    "precache-manifest.a4cff88bcbfb44799cf0a967bf13c646.js": "/techdrug/precache-manifest.a4cff88bcbfb44799cf0a967bf13c646.js",
     "service-worker.js": "/techdrug/service-worker.js",
-    "static/css/main.41135ce7.chunk.css.map": "/techdrug/static/css/main.41135ce7.chunk.css.map",
-    "static/js/2.b9cfba11.chunk.js.LICENSE.txt": "/techdrug/static/js/2.b9cfba11.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/techdrug/static/media/cta-bg.598bd60b.jpg",
-    "static/media/hero-img.png": "/techdrug/static/media/hero-img.fdff2e0c.png",
-    "static/media/icofont.min.css": "/techdrug/static/media/icofont.f6ab04ae.woff"
+    "static/css/2.8d42ffd2.chunk.css.map": "/techdrug/static/css/2.8d42ffd2.chunk.css.map",
+    "static/css/main.8e89962c.chunk.css.map": "/techdrug/static/css/main.8e89962c.chunk.css.map",
+    "static/js/2.cca90ce6.chunk.js.LICENSE.txt": "/techdrug/static/js/2.cca90ce6.chunk.js.LICENSE.txt",
+    "static/media/programming-concept-illustration_114360-1351-min.png": "/techdrug/static/media/programming-concept-illustration_114360-1351-min.92f8de43.png",
+    "static/media/slick-theme.css": "/techdrug/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9071646a.js",
-    "static/js/2.b9cfba11.chunk.js",
-    "static/css/main.41135ce7.chunk.css",
-    "static/js/main.09c712d7.chunk.js"
+    "static/js/runtime-main.47a7ac8a.js",
+    "static/css/2.8d42ffd2.chunk.css",
+    "static/js/2.cca90ce6.chunk.js",
+    "static/css/main.8e89962c.chunk.css",
+    "static/js/main.ee131680.chunk.js"
   ]
 }
