@@ -32,7 +32,7 @@ class SimpleSlider extends React.Component{
                                         <h1>{sliderContant.title}</h1>
                                         <p>{sliderContant.desciption}</p>
                                         <div className="btn-warapper">
-                                            <Button className="main-btn">Read More</Button>
+                                            <Button className="main-btn white-btn"><span className="slash"></span>Read More</Button>
                                         </div>
                                     </div>
                                 </Col>

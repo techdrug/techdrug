@@ -1,8 +1,10 @@
 import React from 'react'
 import Header from '../global/headernav'
-import {Container} from 'react-bootstrap'
+import {Helmet} from "react-helmet";
+import {Container,Row,Button} from 'react-bootstrap'
 import SimpleSlider from '../inc/sliderCom/slider';
 import PortFolio from '../inc/portfolio/portfolio';
+import Brands from '../inc/brands/brands';
 import images from '../../assets/images/programming-concept-illustration_114360-1351-min.png'
 import images0 from '../../assets/images/barcelona-design-e1555918754720.png'
 var sliderContent = [
@@ -14,6 +16,10 @@ class Home extends React.Component{
     render(){
         return(
             <>
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>Home</title>
+                </Helmet>
                 <Header />
                 <SimpleSlider sliderAttr={sliderContent}/>
                 <div className="brands section">
@@ -22,15 +28,12 @@ class Home extends React.Component{
                             <h2 className="section-title">Our Brands</h2>
                         </div>
                         <div className="inner-brander-wrapper">
-                            <ul className="d-flex">
-                                <li><img src={images0} alt="mystl" className="img-fluid"/></li>
-                                <li><img src={images0} alt="mystl" className="img-fluid"/></li>
-                                <li><img src={images0} alt="mystl" className="img-fluid"/></li>
-                                <li><img src={images0} alt="mystl" className="img-fluid"/></li>
-                                <li><img src={images0} alt="mystl" className="img-fluid"/></li>
-                                <li><img src={images0} alt="mystl" className="img-fluid"/></li>
-                                <li><img src={images0} alt="mystl" className="img-fluid"/></li>
-                            </ul>
+                            <Row>
+                                <Brands image={images0}/>
+                                <div className="btn-warapper text-right button-bt-wrapper">
+                                    <Button className="main-btn main-color"><span className="slash"></span>View More</Button>
+                                </div>
+                            </Row>
                         </div>
                     </Container>
                 </div>

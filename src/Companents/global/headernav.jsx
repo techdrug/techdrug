@@ -19,7 +19,7 @@ class Header extends React.Component{
         console.log(this.state.isTop)
         return(
             <>
-                <Navbar bg="light" expand="lg" className={`main-header ${this.state.isTop ? 'stick-nav': 'stick-remove'}`}>
+                <Navbar  expand="lg" className={`main-header ${this.state.isTop ? 'stick-nav': 'stick-remove'}`}>
                     <Container>
                         <Navbar.Brand href="#home">Learning IT</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />

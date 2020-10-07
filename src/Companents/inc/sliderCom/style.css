@@ -1,6 +1,7 @@
 .sliderWrapper{
-    background-color: #f8f9fa;
+    background: linear-gradient(240.67deg,rgba(87,118,219,.75) 10.22%,rgba(0,37,158,.75) 87.66%),#5776db;
     padding:120px 15px 80px;
+
 }
 .sliderWrapper .Content-slider{
     display: -webkit-box;
@@ -14,6 +15,7 @@
         -ms-flex-pack: center;
             justify-content: center;
     height: 100%;
+    color: #fff;
 }
 .sliderWrapper .Content-slider h1{
     font-size: 60px;
