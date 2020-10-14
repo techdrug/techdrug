@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container,Navbar,Nav,NavDropdown} from 'react-bootstrap'
-import CusButton from '../inc/cusbuttom'
+import CusButton from '../../inc/cusbuttom';
+import './style.scss'
 class Header extends React.Component{
     state = {
         isTop: false,

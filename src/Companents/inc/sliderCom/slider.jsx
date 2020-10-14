@@ -1,9 +1,9 @@
 import React from 'react';
-import { Row, Col, Container,Button } from 'react-bootstrap'
+import { Row, Col, Container,Button } from 'react-bootstrap';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css"
-import "./style.css"
+import "slick-carousel/slick/slick-theme.css";
+import "./style.scss";
 
 class SimpleSlider extends React.Component{
 
@@ -12,7 +12,7 @@ class SimpleSlider extends React.Component{
         const {sliderAttr}= this.props;
         
         var settings = {
-            dots: true,
+            dots: false,
             infinite: true,
             speed: 500,
             slidesToShow: 1,

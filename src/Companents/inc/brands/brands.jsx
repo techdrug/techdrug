@@ -33,7 +33,7 @@ class Brands extends React.Component{
                     <Card>
                         <Card.Img variant="top" src={this.props.image} />
                         <Card.Body>
-                            <Card.Title>Peter Stanbridge</Card.Title>
+                            <Card.Title>Peter</Card.Title>
                         </Card.Body>
                     </Card>
                 </Col>

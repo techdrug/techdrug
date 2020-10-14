@@ -1,0 +1,58 @@
+$brand-orange: #f96d02;
+$open-sans: "Open Sans", sans-serif;
+
+.testimonial-reel {
+  margin-bottom: 4rem !important;
+  margin-top: 4rem;
+
+  .box {
+    position: relative;
+    margin-bottom: 30px;
+
+    .image {
+      margin: 0 auto -45px;
+      text-align: center;
+
+      img {
+        height: 130px;
+        margin: 0 auto;
+      }
+    }
+
+    .test-component {
+      background-color: #fff;
+      padding: 1rem 2.5rem;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      min-height: 200px;
+    }
+
+    .test-title {
+      font-family: $open-sans;
+      color: $brand-orange;
+      text-align: center;
+      margin-top: 3.3rem;
+      margin-bottom: 15px;
+    }
+
+    .test-content {
+      text-align: center;
+    }
+  }
+
+  .slick-slide {
+    opacity: 0.3;
+    transition: opacity 0.3s;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    &.slick-cloned {
+      opacity: 0.3;
+      transition: opacity 0.3s;
+    }
+
+    &.slick-current.slick-active {
+      opacity: 1;
+      transition: opacity 0.3s;
+    }
+  }
+}

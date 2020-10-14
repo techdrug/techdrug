@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
 
-$primaryFont:'Roboto', sans-serif;
+$primaryFont:'Open Sans', sans-serif;;
 
 $primarytransition:0.2s ease-in-out;
 
 $primary-color : #21363d;
 
 $btn-color: #c22136;
+
+$primary-color-add:#2f50bf;
 
 body{
   font-family: $primaryFont;
@@ -19,8 +21,8 @@ body{
 
 .section-title{
   text-align: center;
-    font-weight: 600;
-    font-size: 40px;
+  font-weight: 600;
+  font-size: 32px;
     margin-bottom: 40px;
     display: inline-block;
     position: relative;
@@ -28,14 +30,14 @@ body{
     &::before{
       content: '\f0da';
       font-family: FontAwesome;
-      color: #41dfc0;
+      color: $primary-color-add;
       left: -15px;
       position: relative;
       transition: $primarytransition;
     }
     &:hover{
       &::before{left: 0px;}
-      color:#41dfc0;
+      color:$primary-color-add;
     }
 }
 
@@ -44,6 +46,10 @@ body{
   position: fixed;
   width: 100%;
   z-index: 99;
+  .navbar-brand{
+    color: #fff;
+    font-weight: 600;
+  }
   
 
   &.stick-remove{
@@ -211,6 +217,7 @@ body{
       .card-body{
         color: #000;
         .card-title{
+          font-size: 1rem;
           color: #000;
           text-transform: capitalize;
           font-weight: 400;

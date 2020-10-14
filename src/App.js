@@ -1,6 +1,6 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Companents/pages/home';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 
 

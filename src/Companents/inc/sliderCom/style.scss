@@ -1,6 +1,24 @@
 .sliderWrapper{
     background: linear-gradient(240.67deg,rgba(87,118,219,.75) 10.22%,rgba(0,37,158,.75) 87.66%),#5776db;
     padding:120px 15px 80px;
+    .slick-arrow.slick-prev{
+        top: unset;
+        bottom: 0;
+        left: 0;
+        z-index: 99;
+        &::before{
+            font-size: 35px;
+        }
+    }
+    .slick-arrow.slick-next{
+        top: unset;
+        bottom: 0;
+        left: 50px;
+        z-index: 99;
+        &::before{
+            font-size: 35px;
+        }
+    }
 
 }
 .sliderWrapper .Content-slider{
